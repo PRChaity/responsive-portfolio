@@ -283,6 +283,10 @@ nav ul{
    margin-left: 25px;
 }
 
+.banner-profile-pic {
+    width: 280px;
+}
+
     main section {
         margin: 0%;}
     .skills-container, .about-items, .resume-container{
