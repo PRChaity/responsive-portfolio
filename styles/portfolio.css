@@ -247,6 +247,11 @@ footer input[type="text"], footer input[type="email"], footer textarea {
 
 @media screen and (max-width:576px) {
 
+    body{
+        margin-left: 10%;
+        padding: 0 auto;
+        width: auto;
+    
     .header {
         
     background-repeat: no-repeat;
