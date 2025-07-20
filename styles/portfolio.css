@@ -82,7 +82,7 @@ nav {
 }
 
 /* header */
-.header{
+header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
@@ -248,11 +248,17 @@ footer input[type="text"], footer input[type="email"], footer textarea {
 @media screen and (max-width:576px) {
 
     body{
-        margin-left: 10%;
-        width: auto;
+        align-content: center;
+        margin:0 auto;
+        width: 100%;
+        padding-right: 0%;
+        padding-left: 1%;
+        margin-left: 1%;
+        text-align: center;
+    }
     
-    .header {
-        
+    header {
+    background-position: top left, bottom right;
     background-repeat: no-repeat;
 }
  nav {
@@ -280,12 +286,16 @@ nav ul{
     flex-direction: column;
     margin-left: 10%;
 }
-
+.banner-title {
+    display: grid;
+    grid-template-columns: max-content;
+}
+    
 .banner-content{
    align-self: center;
    max-width: 570px;
-   margin-left: 25px;
-   padding-left: 19%;
+   /* margin-left: 25px; */
+   /* padding-left: 19%; */
 }
 
 .banner-profile-pic {
@@ -293,7 +303,8 @@ nav ul{
 }
 
     main section {
-        margin: 0%;}
+        margin: 0%;
+    }
     .skills-container, .about-items, .resume-container{
         flex-direction: column;
         justify-content: center;
@@ -330,5 +341,6 @@ nav ul{
     margin: 0%;
     width: 100%;
 }
+
 
 }
